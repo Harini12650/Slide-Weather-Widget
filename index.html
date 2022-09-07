@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<title>Slide Weather Widget </title>
+<!-- for-mobile-apps -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="keywords" content="Slide Weather Widget Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<!-- //for-mobile-apps -->
+<link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+		$('.hub-slider-slides ul').hubSlider({
+			selector: $('li'),
+			button: {
+				next: $('.hub-slider-arrow_next'),
+				prev: $('.hub-slider-arrow_prev')
+			},
+			transition: '0.7s',
+			startOffset: 30,
+			auto: true,
+			time: 2 // secondly
+		});
+
+        })
+    </script>
+	<!--skycons-icons-->
+<script src="js/skycons.js"></script>
+<!--//skycons-icons-->
+
+</head>
+<body>
+<div class="content" id="Main-Content">
+	<h1>Slide Weather Widget</h1>
+	<div class="w3ls-slider">
+		<div class="hub-slider">
+			<div class="hub-slider-slides">
+				<ul>
+					<li>
+						<div class="weather-info weather-info3">
+							<div class="weather-info-top">
+								<h3>45°c</h3>
+								<h4>Sunny</h4>
+								<p>Vijayawada</p>
+							</div>
+							<canvas id="partly-cloudy-day" width="40" height="40"></canvas>
+							<div class="weather-info-bottom">
+								<h5>December 9, 2022</h5>
+								<p>Sunday</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="weather-info weather-info2">
+							<div class="weather-info-top">
+								<h3>41°c</h3>
+								<h4>Sunny</h4>
+								<p>Vijayawada</p>
+							</div>
+							<canvas id="cloudy" width="40" height="40"></canvas>
+							<div class="weather-info-bottom">
+								<h5>December 10,  2022</h5>
+								<p>Saturday</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="weather-info">
+							<div class="weather-info-top">
+								<h3>36°c</h3>
+								<h4>Partly Cloudy</h4>
+								<p>Vijayawada</p>
+							</div>
+							<canvas id="rain" width="40" height="40"></canvas>
+							<div class="weather-info-bottom">
+								<h5>December 11 , 2022</h5>
+								<p>Thursday</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="weather-info weather-info1">
+							<div class="weather-info-top">
+								<h3>27°c</h3>
+								<h4>Rainy</h4>
+								<p>Vijayawada</p>
+							</div>
+							<canvas id="snow" width="40" height="40"></canvas>
+							<div class="weather-info-bottom">
+								<h5>December 12 , 2022</h5>
+								<p>Monday</p>
+							</div>
+						</div>
+
+					</li>
+				</ul>
+			</div>
+			<div class="hub-slider-controls">
+				<button class="hub-slider-arrow hub-slider-arrow_next">↑</button>
+				<button class="hub-slider-arrow hub-slider-arrow_prev">↓</button>
+			</div>
+		</div>
+	</div>
+	<div class="widget">
+		<p> Designed by Harini</p>
+	</div>
+	<!-- //widget -->
+	<script>
+				 var icons = new Skycons({"color": "#FFD700"}),
+					  list  = [
+						"clear-day"
+					  ],
+					  i;
+
+				  for(i = list.length; i--; )
+					icons.set(list[i], list[i]);
+
+				  icons.play();
+		</script>
+		<script>
+				 var icons = new Skycons({"color": "#f5f5f5"}),
+					  list  = [
+						"clear-night", "partly-cloudy-day",
+						"partly-cloudy-night", "cloudy", "rain", "sleet", "snow", "wind",
+						"fog"
+					  ],
+					  i;
+
+				  for(i = list.length; i--; )
+					icons.set(list[i], list[i]);
+
+				  icons.play();
+		</script>
+	<script type="text/javascript" src="js/hubslider.js"></script>
+</div>
+</body>
+</html>
