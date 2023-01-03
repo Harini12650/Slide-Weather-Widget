@@ -14,4 +14,4 @@
 ![frt2](https://user-images.githubusercontent.com/111880092/188934377-be93b1ec-c5c9-420a-ac12-1633c812a8d4.png)
 
 
-<p>The link to my Website is  </p>
+<p>The link to my Website is  https://zealous-dune-0e41f9e10.1.azurestaticapps.net/ </p>
